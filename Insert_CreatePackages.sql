@@ -1,0 +1,536 @@
+
+
+--HT_MEMBERS
+
+Insert INTO HT_MEMBERS 
+VALUES(MEMBERS_MEMBER#_SEQ.NEXTVAL,'John','Doe', DATE'2023-07-26','123 Main St','Nashville','CA','USA','12345','555-123-4567','john.doe@gmail.com');
+    
+INSERT INTO HT_MEMBERS
+VALUES(MEMBERS_MEMBER#_SEQ.NEXTVAL,'Jane','Smith', DATE'2023-01-26','456 Oak Ave','Sometown','NY','USA','67890','555-987-6543','jane.smith@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Michael','Johnson', DATE'2023-07-26','789 Elm St','Otherville','TX','USA', '45678','555-555-5555','michael.johnson@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Emily','Davis', DATE'2023-08-28','101 Pine Ave','Villagetown','FL','USA','98765','555-444-3333','emily.davis@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Helly','Hensen', DATE'2023-09-03','103 Front St','Cabbagetown','FL','USA','46382','555-444-2730','helly.hensen@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Tim','Thomas', DATE'2023-09-13','43 Front St','Koreantown','TX','USA','46382','352-452-4526','tim.thomas@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Elijah','Lee', DATE'2023-05-21','72 Elm St','Maplewood','NJ','USA','07040','201-555-1234','elijah.lee@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Sophia','Nguyen', DATE'2023-08-07','10 Oak Ave','Chinatown','CA','USA','90012','415-555-6789','sophia.nguyen@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Isabella','Gonzalez', DATE'2023-02-14','27 Pine St','Little Havana','FL','USA','33130','305-555-9876','isabella.gonzalez@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Ethan','Martinez', DATE'2023-06-02','84 Walnut Ave','Little Italy','NY','USA','10013','917-555-5432','ethan.martinez@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Aiden','Ali', DATE'2023-09-29','55 Cypress St','Jackson Heights','NY','USA','11372','718-555-8765','aiden.ali@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Luna','Kim', DATE'2023-07-10','123 Maple Rd','Koreatown','CA','USA','90006','213-555-2345','luna.kim@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Muhammad','Khan', DATE'2023-04-17','456 Elm St','Little Pakistan','IL','USA','60607','312-555-4567','muhammad.khan@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Harper','Wang', DATE'2023-01-05','78 Oak Ave','Chinatown','CA','USA','90012','415-555-7890','harper.wang@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Carter','Nguyen', DATE'2023-03-28','32 Pine St','Little Saigon','TX','USA','77002','832-555-9876','carter.nguyen@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Scarlett','Cohen', DATE'2023-11-11','95 Walnut Ave','Jewish Quarter','NY','USA','10002','917-555-5432','scarlett.cohen@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Jackson','Santos', DATE'2023-12-25','22 Cypress St','Little Brazil','FL','USA','33139','305-555-8765','jackson.santos@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Aria','Singh', DATE'2023-10-16','67 Maple Rd','Little India','IL','USA','60608','312-555-2345','aria.singh@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Grayson','Li', DATE'2023-09-01','87 Elm St','Chinatown','CA','USA','90012','415-555-7890','grayson.li@gmail.com');
+
+INSERT INTO HT_MEMBERS
+VALUES (MEMBERS_MEMBER#_SEQ.NEXTVAL,'Sofia','Gupta', DATE'2023-07-03','99 Pine St','Little India','TX','USA','77002','832-555-9876','sofia.gupta@gmail.com');
+
+
+--HT_HOTELS
+
+INSERT INTO HT_HOTELS
+VALUES ( HOTELS_HOTEL#_SEQ.NEXTVAL, 'Brookyn Bridge', 'New York', 'USA', 'North America');
+
+INSERT INTO HT_HOTELS
+VALUES (HOTELS_HOTEL#_SEQ.NEXTVAL, 'Central Park', 'New York', 'USA', 'North America');
+
+INSERT  INTO HT_HOTELS
+VALUES (HOTELS_HOTEL#_SEQ.NEXTVAL, 'Mayfair', 'London', 'UK', 'Europe');
+
+INSERT  INTO HT_HOTELS
+VALUES (HOTELS_HOTEL#_SEQ.NEXTVAL, 'South Beach', 'Florida', 'USA', 'North America');
+
+INSERT  INTO HT_HOTELS
+VALUES (HOTELS_HOTEL#_SEQ.NEXTVAL, 'San Francisco', 'California', 'USA', 'North America');
+
+INSERT  INTO HT_HOTELS
+VALUES (HOTELS_HOTEL#_SEQ.NEXTVAL, 'Nashville', 'Tennesse', 'USA', 'North America');
+
+INSERT  INTO HT_HOTELS
+VALUES (HOTELS_HOTEL#_SEQ.NEXTVAL, 'Toronto', 'Ontario', 'Canada', 'North America');
+
+INSERT  INTO HT_HOTELS
+VALUES (HOTELS_HOTEL#_SEQ.NEXTVAL, 'West Hollywood', 'California', 'USA', 'North America');
+
+INSERT  INTO HT_HOTELS
+VALUES (HOTELS_HOTEL#_SEQ.NEXTVAL, 'Hanalei Bay', 'Hawaii', 'USA', 'North America');
+
+INSERT  INTO HT_HOTELS
+VALUES (HOTELS_HOTEL#_SEQ.NEXTVAL, 'Austin', 'Texas', 'USA', 'North America');
+
+--HT_ROOM_TYPES
+
+INSERT INTO HT_ROOM_TYPES
+VALUES (roomty_roomty#_seq.NEXTVAL, 'Mountain View King', 689.99);
+
+INSERT INTO HT_ROOM_TYPES
+VALUES (roomty_roomty#_seq.NEXTVAL, 'Mountain View Queen', 549.99);
+
+INSERT INTO HT_ROOM_TYPES
+VALUES (roomty_roomty#_seq.NEXTVAL, 'Mountain View Terrace King', 749.99);
+
+INSERT INTO HT_ROOM_TYPES
+VALUES (roomty_roomty#_seq.NEXTVAL, 'Mountain View Terrace Queen', 659.99);
+
+INSERT INTO HT_ROOM_TYPES
+VALUES (roomty_roomty#_seq.NEXTVAL, 'Mountain View Penhouse', 829.99);
+
+INSERT INTO HT_ROOM_TYPES
+VALUES (roomty_roomty#_seq.NEXTVAL, 'Ocean View King', 729.99);
+
+INSERT INTO HT_ROOM_TYPES
+VALUES (roomty_roomty#_seq.NEXTVAL, 'Ocean View Queen', 649.99);
+
+INSERT INTO HT_ROOM_TYPES
+VALUES (roomty_roomty#_seq.NEXTVAL, 'Ocean View Terrace King', 819.99);
+
+INSERT INTO HT_ROOM_TYPES
+VALUES (roomty_roomty#_seq.NEXTVAL, 'Ocean View Terrace Queen', 859.99);
+
+INSERT INTO HT_ROOM_TYPES
+VALUES (roomty_roomty#_seq.NEXTVAL, 'Ocean View Penhouse', 1029.99);
+
+--HT_STAFF_TYPES
+
+INSERT INTO HT_STAFF_TYPES VALUES (staffty_staffty#_seq.NEXTVAL, 'Manager');
+INSERT INTO HT_STAFF_TYPES VALUES (staffty_staffty#_seq.NEXTVAL, 'Cleaner');
+INSERT INTO HT_STAFF_TYPES VALUES (staffty_staffty#_seq.NEXTVAL, 'Customer Service Representative');
+INSERT INTO HT_STAFF_TYPES VALUES (staffty_staffty#_seq.NEXTVAL, 'Booking Agent');
+INSERT INTO HT_STAFF_TYPES VALUES (staffty_staffty#_seq.NEXTVAL, 'Kitchen Staff');
+INSERT INTO HT_STAFF_TYPES VALUES (staffty_staffty#_seq.NEXTVAL, 'Chef');
+INSERT INTO HT_STAFF_TYPES VALUES (staffty_staffty#_seq.NEXTVAL, 'Receptionist');
+INSERT INTO HT_STAFF_TYPES VALUES (staffty_staffty#_seq.NEXTVAL, 'Secretary');
+INSERT INTO HT_STAFF_TYPES VALUES (staffty_staffty#_seq.NEXTVAL, 'Fitness Instructor');
+INSERT INTO HT_STAFF_TYPES VALUES (staffty_staffty#_seq.NEXTVAL, 'Tour Guide');
+
+
+--HT_STAFFS
+INSERT INTO HT_STAFFS (STAFF_ID, STF_NAME, STAFF_TY_ID, SALARY, MANAGER_ID)
+VALUES (staffs_staff#_seq.NEXTVAL, 'Kai Chen', (SELECT STAFF_TY_ID FROM HT_STAFF_TYPES WHERE TYPE_NAME = 'Manager'),200000, NULL);
+
+INSERT INTO HT_STAFFS (STAFF_ID, STF_NAME, STAFF_TY_ID, SALARY, MANAGER_ID)
+VALUES (staffs_staff#_seq.NEXTVAL, 'Liam Murphy', (SELECT STAFF_TY_ID FROM HT_STAFF_TYPES WHERE TYPE_NAME = 'Manager'),149000, NULL);
+
+INSERT INTO HT_STAFFS (STAFF_ID, STF_NAME, STAFF_TY_ID, SALARY, MANAGER_ID)VALUES (staffs_staff#_seq.NEXTVAL, 'Amina Khan', (SELECT STAFF_TY_ID FROM HT_STAFF_TYPES WHERE TYPE_NAME = 'Booking Agent'), 45000,(SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME = 'Liam Murphy'));
+
+INSERT INTO HT_STAFFS (STAFF_ID, STF_NAME, STAFF_TY_ID, SALARY, MANAGER_ID)VALUES (staffs_staff#_seq.NEXTVAL, 'Nina Li', (SELECT STAFF_TY_ID FROM HT_STAFF_TYPES WHERE TYPE_NAME = 'Booking Agent'), 23800, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME = 'Liam Murphy'));
+
+INSERT INTO HT_STAFFS (STAFF_ID, STF_NAME, STAFF_TY_ID, SALARY, MANAGER_ID)VALUES (staffs_staff#_seq.NEXTVAL, 'Rohan Patel', (SELECT STAFF_TY_ID FROM HT_STAFF_TYPES WHERE TYPE_NAME = 'Cleaner'), 53455, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME = 'Kai Chen'));
+
+INSERT INTO HT_STAFFS (STAFF_ID, STF_NAME, STAFF_TY_ID, SALARY, MANAGER_ID)VALUES (staffs_staff#_seq.NEXTVAL, 'Kira Nakamura', (SELECT STAFF_TY_ID FROM HT_STAFF_TYPES WHERE TYPE_NAME = 'Cleaner'), 34850, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME = 'Kai Chen'));
+
+INSERT INTO HT_STAFFS (STAFF_ID, STF_NAME, STAFF_TY_ID, SALARY, MANAGER_ID)VALUES (staffs_staff#_seq.NEXTVAL, 'Isaiah Osei', (SELECT STAFF_TY_ID FROM HT_STAFF_TYPES WHERE TYPE_NAME = 'Booking Agent'), 79900, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME = 'Liam Murphy'));
+
+INSERT INTO HT_STAFFS (STAFF_ID, STF_NAME, STAFF_TY_ID, SALARY, MANAGER_ID)VALUES (staffs_staff#_seq.NEXTVAL, 'Arya Gupta', (SELECT STAFF_TY_ID FROM HT_STAFF_TYPES WHERE TYPE_NAME = 'Cleaner'),34000, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME = 'Kai Chen'));
+
+INSERT INTO HT_STAFFS (STAFF_ID, STF_NAME, STAFF_TY_ID, SALARY, MANAGER_ID)VALUES (staffs_staff#_seq.NEXTVAL, 'Samara Silva', (SELECT STAFF_TY_ID FROM HT_STAFF_TYPES WHERE TYPE_NAME = 'Booking Agent'),23800, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME = 'Liam Murphy'));
+
+INSERT INTO HT_STAFFS (STAFF_ID, STF_NAME, STAFF_TY_ID, SALARY, MANAGER_ID)VALUES (staffs_staff#_seq.NEXTVAL, 'Javier Fernandez', (SELECT STAFF_TY_ID FROM HT_STAFF_TYPES WHERE TYPE_NAME = 'Cleaner'), 58000, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME = 'Kai Chen'));
+
+--HT_ROOMS
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (ROOMS_ROOM#_SEQ.NEXTVAL, 1001, 1001, 'Booked', 1005 );
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (ROOMS_ROOM#_SEQ.NEXTVAL, 1001, 1002,'Booked', 1005);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (ROOMS_ROOM#_SEQ.NEXTVAL, 1003, 1003,'Booked', 1006);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (ROOMS_ROOM#_SEQ.NEXTVAL, 1003, 1005,'Available', 1006);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (ROOMS_ROOM#_SEQ.NEXTVAL, 1002, 1005,'Booked', 1007);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (ROOMS_ROOM#_SEQ.NEXTVAL, 1002, 1001,'Available', 1007);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (ROOMS_ROOM#_SEQ.NEXTVAL, 1004, 1002,'Booked', 1010);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (ROOMS_ROOM#_SEQ.NEXTVAL, 1004, 1006,'Available', 1010);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (ROOMS_ROOM#_SEQ.NEXTVAL, 1004, 1003,'Booked', 1010);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (ROOMS_ROOM#_SEQ.NEXTVAL, 1004, 1003,'Available', 1010);
+
+
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1001, 1001, 'Booked', 1010);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1001, 1002, 'Available', 1010);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1001, 1003, 'Available', 1010);
+
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1002, 1003, 'Available', 1010);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1002, 1004, 'Available', 1010);
+
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1003, 1005, 'Available', 1010);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1003, 1006, 'Available', 1010);
+
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1004, 1007, 'Available', 1010);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1004, 1008, 'Available', 1010);
+
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1005, 1009, 'Available', 1010);
+
+INSERT INTO HT_ROOMS (ROOM_ID, HOTEL_ID, ROOM_TY_ID, AVAILABILITY, STAFF_ID)
+VALUES (rooms_room#_seq.NEXTVAL, 1005, 1009, 'Available', 1010);
+
+--HT_INVOICES PACKAGE
+--HT_INVOICES PACKAGE SPECIFICATION
+CREATE OR REPLACE PACKAGE HT_INVOICE_CALCULATIONS AS
+  -- Calculate the subtotal
+  FUNCTION CALCULATE_SUBTOTAL(booking_id IN NUMBER) RETURN NUMBER;
+  
+  -- Calculate the tax amount
+  FUNCTION CALCULATE_TAX(booking_id IN NUMBER) RETURN NUMBER;
+  
+  -- Calculate the total amount
+  FUNCTION CALCULATE_TOTAL(booking_id IN NUMBER) RETURN NUMBER;
+END HT_INVOICE_CALCULATIONS;
+/
+
+--HT_INVOICES PACKAGE BODY
+CREATE OR REPLACE PACKAGE BODY HT_INVOICE_CALCULATIONS AS
+  -- Calculate the subtotal
+  FUNCTION CALCULATE_SUBTOTAL(booking_id IN NUMBER) RETURN NUMBER IS
+    v_subtotal HT_INVOICES.SUBTOTAL%TYPE;
+    v_cost_per_night HT_ROOM_TYPES.COST_PER_NIGHT%TYPE;
+    v_check_in HT_BOOKINGS.CHECK_IN%TYPE;
+    v_check_out HT_BOOKINGS.CHECK_OUT%TYPE;
+    v_num_nights NUMBER;
+  BEGIN
+    -- Get the cost_per_night and check-in/check-out dates for the specific booking
+    SELECT r.COST_PER_NIGHT, b.CHECK_IN, b.CHECK_OUT
+    INTO v_cost_per_night, v_check_in, v_check_out
+    FROM HT_BOOKINGS b
+    JOIN HT_ROOM_TYPES r ON b.ROOM_TY_ID = r.ROOM_TY_ID
+    WHERE b.BOOKING_ID = booking_id;
+    
+    -- Calculate the number of nights for the booking
+    v_num_nights := v_check_out - v_check_in;
+    
+    -- Calculate the subtotal by multiplying the cost_per_night with the number of nights
+    v_subtotal := v_cost_per_night * v_num_nights;
+    
+    RETURN v_subtotal;
+  EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+      RETURN 0; -- Return 0 if no booking is found
+  END CALCULATE_SUBTOTAL;
+  
+  --  Calculate the tax amount
+  FUNCTION CALCULATE_TAX(booking_id IN NUMBER) RETURN NUMBER IS
+    v_tax_rate CONSTANT NUMBER(5, 2) := 0.13; -- 13% tax rate (assuming Ontario tax rate)
+    v_subtotal HT_INVOICES.SUBTOTAL%TYPE;
+    v_tax_amount HT_INVOICES.TAX%TYPE;
+  BEGIN
+    v_subtotal := CALCULATE_SUBTOTAL(booking_id);
+    v_tax_amount := v_subtotal * v_tax_rate;
+    
+    RETURN v_tax_amount;
+  EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+      RETURN 0; -- Return 0 if no booking is found
+  END CALCULATE_TAX;
+  
+  -- Calculate the total amount
+  FUNCTION CALCULATE_TOTAL(booking_id IN NUMBER) RETURN NUMBER IS
+    v_subtotal HT_INVOICES.SUBTOTAL%TYPE;
+    v_tax_amount HT_INVOICES.TAX%TYPE;
+    v_total HT_INVOICES.TOTAL%TYPE;
+  BEGIN
+    v_subtotal := CALCULATE_SUBTOTAL(booking_id);
+    v_tax_amount := CALCULATE_TAX(booking_id);
+    v_total := v_subtotal + v_tax_amount;
+    
+    RETURN v_total;
+  EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+      RETURN 0; -- Return 0 if no booking is found
+  END CALCULATE_TOTAL;
+END HT_INVOICE_CALCULATIONS;
+/
+
+--
+--
+-- Trigger that inserts data into HT_INVOICES
+CREATE OR REPLACE TRIGGER TRG_INSERT_HT_INVOICE
+FOR INSERT ON HT_BOOKINGS
+COMPOUND TRIGGER
+
+  TYPE t_booking_data IS TABLE OF NUMBER INDEX BY PLS_INTEGER;
+  v_booking_ids t_booking_data;
+  v_counter PLS_INTEGER := 0;
+
+AFTER EACH ROW IS
+BEGIN
+  v_counter := v_counter + 1;
+  v_booking_ids(v_counter) := :NEW.BOOKING_ID;
+END AFTER EACH ROW;
+
+AFTER STATEMENT IS
+  v_subtotal HT_INVOICES.SUBTOTAL%TYPE;
+  v_tax_amount HT_INVOICES.TAX%TYPE;
+  v_total HT_INVOICES.TOTAL%TYPE;
+BEGIN
+  FOR i IN 1..v_counter LOOP
+    -- Calculate the invoice details using the package functions
+    v_subtotal := HT_INVOICE_CALCULATIONS.CALCULATE_SUBTOTAL(v_booking_ids(i));
+    v_tax_amount := HT_INVOICE_CALCULATIONS.CALCULATE_TAX(v_booking_ids(i));
+    v_total := HT_INVOICE_CALCULATIONS.CALCULATE_TOTAL(v_booking_ids(i));
+  
+    -- Insert the calculated values into HT_INVOICES table
+    INSERT INTO HT_INVOICES (BOOKING_ID, SUBTOTAL, TAX, TOTAL)
+    VALUES (v_booking_ids(i), v_subtotal, v_tax_amount, v_total);
+  END LOOP;
+END AFTER STATEMENT;
+END TRG_INSERT_HT_INVOICE;
+/
+
+--END OF TRIGGER
+--  Trigger that updates corresponding invoices
+CREATE OR REPLACE TRIGGER TRG_UPDATE_HT_INVOICE_BOOKING
+AFTER UPDATE ON HT_BOOKINGS
+FOR EACH ROW
+DECLARE
+  v_subtotal HT_INVOICES.SUBTOTAL%TYPE;
+  v_tax_amount HT_INVOICES.TAX%TYPE;
+  v_total HT_INVOICES.TOTAL%TYPE;
+BEGIN
+  IF :OLD.NUM_ADULTS <> :NEW.NUM_ADULTS OR
+     :OLD.NUM_CHILDREN <> :NEW.NUM_CHILDREN OR
+     :OLD.CHECK_IN <> :NEW.CHECK_IN OR
+     :OLD.CHECK_OUT <> :NEW.CHECK_OUT THEN
+
+    -- Recalculate the invoice details using the package functions
+    v_subtotal := HT_INVOICE_CALCULATIONS.CALCULATE_SUBTOTAL(:NEW.BOOKING_ID);
+    v_tax_amount := HT_INVOICE_CALCULATIONS.CALCULATE_TAX(:NEW.BOOKING_ID);
+    v_total := HT_INVOICE_CALCULATIONS.CALCULATE_TOTAL(:NEW.BOOKING_ID);
+
+    -- Update the corresponding invoice in HT_INVOICES table
+    UPDATE HT_INVOICES
+    SET SUBTOTAL = v_subtotal,
+        TAX = v_tax_amount,
+        TOTAL = v_total
+    WHERE BOOKING_ID = :NEW.BOOKING_ID;
+  END IF;
+END;
+/
+
+
+--HT_BOOKINGS
+
+INSERT INTO HT_BOOKINGS (BOOKING_ID, MEMBER_ID, HOTEL_ID, ROOM_TY_ID, CHECK_IN, CHECK_OUT, NUM_ADULTS, STAFF_ID)
+VALUES (bookings_booking#_seq.NEXTVAL, 1001, 1001, 1001, DATE'2023-03-10', DATE'2023-03-20', 2, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME ='Nina Li'));
+
+INSERT INTO HT_BOOKINGS (BOOKING_ID, MEMBER_ID, HOTEL_ID, ROOM_TY_ID, CHECK_IN, CHECK_OUT, NUM_ADULTS, NUM_CHILDREN, STAFF_ID)
+VALUES (bookings_booking#_seq.NEXTVAL, 1002, 1001, 1002, DATE'2023-03-13', DATE'2023-03-15', 2, 1, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME ='Nina Li'));
+
+INSERT INTO HT_BOOKINGS (BOOKING_ID, MEMBER_ID, HOTEL_ID, ROOM_TY_ID, CHECK_IN, CHECK_OUT, NUM_ADULTS, STAFF_ID)
+VALUES (bookings_booking#_seq.NEXTVAL, 1003, 1002, 1003, DATE'2023-04-20', DATE'2023-04-25', 1, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME ='Nina Li'));
+
+INSERT INTO HT_BOOKINGS (BOOKING_ID, MEMBER_ID, HOTEL_ID, ROOM_TY_ID, CHECK_IN, CHECK_OUT, NUM_ADULTS, NUM_CHILDREN, STAFF_ID)
+VALUES (bookings_booking#_seq.NEXTVAL, 1004, 1002, 1003, DATE'2023-05-01', DATE'2023-05-05', 2, 2, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME ='Amina Khan'));
+
+INSERT INTO HT_BOOKINGS (BOOKING_ID, MEMBER_ID, HOTEL_ID, ROOM_TY_ID, CHECK_IN, CHECK_OUT, NUM_ADULTS, STAFF_ID)
+VALUES (bookings_booking#_seq.NEXTVAL, 1005, 1003, 1005, DATE'2023-06-10', DATE'2023-06-15', 1, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME ='Amina Khan'));
+
+INSERT INTO HT_BOOKINGS (BOOKING_ID, MEMBER_ID, HOTEL_ID, ROOM_TY_ID, CHECK_IN, CHECK_OUT, NUM_ADULTS, NUM_CHILDREN, STAFF_ID)
+VALUES (bookings_booking#_seq.NEXTVAL, 1006, 1003, 1006, DATE'2023-07-02', DATE'2023-07-06', 2, 1, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME ='Amina Khan'));
+
+INSERT INTO HT_BOOKINGS (BOOKING_ID, MEMBER_ID, HOTEL_ID, ROOM_TY_ID, CHECK_IN, CHECK_OUT, NUM_ADULTS, STAFF_ID)
+VALUES (bookings_booking#_seq.NEXTVAL, 1007, 1004, 1007, DATE'2023-08-15', DATE'2023-08-20', 1, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME ='Amina Khan'));
+
+INSERT INTO HT_BOOKINGS (BOOKING_ID, MEMBER_ID, HOTEL_ID, ROOM_TY_ID, CHECK_IN, CHECK_OUT, NUM_ADULTS, NUM_CHILDREN, STAFF_ID)
+VALUES (bookings_booking#_seq.NEXTVAL, 1008, 1004, 1008, DATE'2023-09-01', DATE'2023-09-07', 2, 2, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME ='Amina Khan'));
+
+INSERT INTO HT_BOOKINGS (BOOKING_ID, MEMBER_ID, HOTEL_ID, ROOM_TY_ID, CHECK_IN, CHECK_OUT, NUM_ADULTS, STAFF_ID)
+VALUES (bookings_booking#_seq.NEXTVAL, 1009, 1005, 1009, DATE'2023-10-12', DATE'2023-10-17', 1, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME ='Amina Khan'));
+
+INSERT INTO HT_BOOKINGS (BOOKING_ID, MEMBER_ID, HOTEL_ID, ROOM_TY_ID, CHECK_IN, CHECK_OUT, NUM_ADULTS, NUM_CHILDREN, STAFF_ID)
+VALUES (bookings_booking#_seq.NEXTVAL, 1010, 1005, 1009, DATE'2023-11-05', DATE'2023-11-12', 2, 1, (SELECT STAFF_ID FROM HT_STAFFS WHERE STF_NAME ='Amina Khan'));
+
+--Trigger to update invoices if a room's price changes 
+CREATE OR REPLACE TRIGGER TRG_UPDATE_INVOICES_ROOM_PRICE
+AFTER UPDATE OF COST_PER_NIGHT ON HT_ROOM_TYPES
+FOR EACH ROW
+DECLARE
+  v_booking_id HT_BOOKINGS.BOOKING_ID%TYPE;
+  v_new_cost_per_night HT_ROOM_TYPES.COST_PER_NIGHT%TYPE;
+  v_old_cost_per_night HT_ROOM_TYPES.COST_PER_NIGHT%TYPE;
+BEGIN
+  -- Get the new and old values of COST_PER_NIGHT
+  v_new_cost_per_night := :NEW.COST_PER_NIGHT;
+  v_old_cost_per_night := :OLD.COST_PER_NIGHT;
+  
+  -- Check if there is a change in COST_PER_NIGHT
+  IF v_new_cost_per_night != v_old_cost_per_night THEN
+    -- Get the booking_id associated with the updated room type
+    SELECT b.BOOKING_ID
+    INTO v_booking_id
+    FROM HT_BOOKINGS b
+    WHERE b.ROOM_TY_ID = :NEW.ROOM_TY_ID;
+    
+    -- Update the corresponding invoice with the new subtotal, tax, and total
+    UPDATE HT_INVOICES i
+    SET i.SUBTOTAL = HT_INVOICE_CALCULATIONS.CALCULATE_SUBTOTAL(v_booking_id),
+        i.TAX = HT_INVOICE_CALCULATIONS.CALCULATE_TAX(v_booking_id),
+        i.TOTAL = HT_INVOICE_CALCULATIONS.CALCULATE_TOTAL(v_booking_id)
+    WHERE i.BOOKING_ID = v_booking_id;
+  END IF;
+END;
+/
+
+
+
+--HT_INVOICES
+-- The trigger will automatically calculate and insert data into HT_INVOICES table
+-- No need to manually insert data into HT_INVOICES
+
+-- increase room cost by 3% procedure
+CREATE OR REPLACE PROCEDURE INCREASE_ROOM_COST AS
+BEGIN
+  -- Update each row's COST_PER_NIGHT by increasing it by 3%
+  UPDATE HT_ROOM_TYPES
+  SET COST_PER_NIGHT = COST_PER_NIGHT * 1.03;
+
+  COMMIT;
+EXCEPTION
+  WHEN OTHERS THEN
+    ROLLBACK;
+    RAISE;
+END INCREASE_ROOM_COST;
+/
+
+
+
+--Cancel booking procedure
+CREATE OR REPLACE PROCEDURE CANCEL_BOOKING(
+  p_booking_id IN HT_BOOKINGS.BOOKING_ID%TYPE
+) AS
+BEGIN
+  -- Get the booking details
+  SELECT *
+  INTO p_booking
+  FROM HT_BOOKINGS
+  WHERE BOOKING_ID = p_booking_id;
+  
+  -- Delete the booking
+  DELETE FROM HT_BOOKINGS
+  WHERE BOOKING_ID = p_booking_id;
+  
+  -- Delete the corresponding invoice
+  DELETE FROM HT_INVOICES
+  WHERE BOOKING_ID = p_booking_id;
+  
+  COMMIT;
+EXCEPTION
+  WHEN NO_DATA_FOUND THEN
+    ROLLBACK;
+    RAISE_APPLICATION_ERROR(-20001, 'Booking not found.');
+  WHEN OTHERS THEN
+    ROLLBACK;
+    RAISE;
+END CANCEL_BOOKING;
+/
+
+--Procedure using cursor to increase salary of each staff by 5%
+
+CREATE OR REPLACE PROCEDURE PROCESS_STAFFS AS
+  CURSOR c_staffs IS
+    SELECT STAFF_ID, STF_NAME, SALARY
+    FROM HT_STAFFS;
+
+  v_staff_id HT_STAFFS.STAFF_ID%TYPE;
+  v_stf_name HT_STAFFS.STF_NAME%TYPE;
+  v_old_salary HT_STAFFS.SALARY%TYPE;
+  v_new_salary HT_STAFFS.SALARY%TYPE;
+BEGIN
+  OPEN c_staffs; 
+
+  LOOP
+    FETCH c_staffs INTO v_staff_id, v_stf_name, v_old_salary;
+    EXIT WHEN c_staffs%NOTFOUND; -- Exit loop when no more rows
+
+    -- Calculate the new salary (increase old salary by 5%)
+    v_new_salary := v_old_salary * 1.05;
+
+    -- Update the staff's salary in the table
+    UPDATE HT_STAFFS
+    SET SALARY = v_new_salary
+    WHERE CURRENT OF c_staffs;
+
+    -- Display the old and new salary
+    DBMS_OUTPUT.PUT_LINE('Staff ID: ' || v_staff_id || ', Name: ' || v_stf_name ||
+                         ', Old Salary: ' || v_old_salary || ', New Salary: ' || v_new_salary);
+  END LOOP;
+
+  CLOSE c_staffs; 
+END;
+/
+
+-- pl/sql block to test out procedures
+--indexes
+
+
+
